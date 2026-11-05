@@ -1,0 +1,8 @@
+# Zależności interfejsu i obróbki nagrań. Silnik Applio jest osobno: SETUP_APPLIO.md.
+
+gradio>=5.7,<6
+
+# Zakładka 1 - przygotowanie datasetu (wszystko CPU, bez torch/GPU):
+librosa>=0.10,<0.11       # wczytanie/mono/resampling/cięcie po ciszy (ISC License)
+pyloudnorm>=0.1.1,<0.2    # normalizacja głośności EBU R128 (MIT License)
+noisereduce>=3.0,<4       # odszumianie - spectral gating (MIT License)

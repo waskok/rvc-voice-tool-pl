@@ -1,0 +1,25 @@
+{
+  "presets": {
+    "mowa": {
+      "label": "Mowa",
+      "description": "Preset pod nagrania mówione - bezpieczne domyślne dla laików.",
+      "epochs": 150,
+      "batch_size": 4,
+      "f0_method": "rmvpe"
+    },
+    "spiew": {
+      "label": "Śpiew",
+      "description": "Preset pod wokal śpiewany - domyślne nastawione na cover/śpiew.",
+      "epochs": 200,
+      "batch_size": 4,
+      "f0_method": "rmvpe"
+    }
+  },
+  "advanced_defaults": {
+    "epochs": 200,
+    "batch_size": 8,
+    "f0_method": "rmvpe",
+    "pitch": 0,
+    "index_rate": 0.75
+  }
+}

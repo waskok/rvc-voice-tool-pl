@@ -1,0 +1,37 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Audio / model artifacts (nie commituj ciężkich plików)
+*.wav
+*.mp3
+*.flac
+*.pth
+*.index
+*.zip
+data/
+datasets/
+models/
+outputs/
+runs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Silnik Applio (osobny venv/klon, patrz SETUP_APPLIO.md) - nie commitujemy
+Applio/
+applio-venv/
+vendor/
+
+# Prywatne dokumenty przydatne do pracy 
+documents/
